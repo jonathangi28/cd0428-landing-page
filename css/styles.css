@@ -81,10 +81,15 @@ section {
     color: #000;
 }
 
-.navbar__menu .menu__link:hover {
+.navbar__menu .menu__link:hover, .active_anchor {
     background: #333;
-    color: #fff;
+    color: #fff !important;
     transition: ease 0.3s all;
+}
+
+.menu__link:active {
+    background: #000;
+    color: #fff;
 }
 
 /* Header Styles */
@@ -221,12 +226,6 @@ section.active .landing__container::before {
 section.active .landing__container::after {
     opacity: 1;
     animation: rotate 5s linear 0s infinite forwards reverse;
-}
-
-.active_anchor {
-    background: #333;
-    color: #fff !important;
-    transition: ease 0.3s all;
 }
 
 /* Section Active Styles Keyframe Animations */

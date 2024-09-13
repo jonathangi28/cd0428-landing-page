@@ -60,7 +60,7 @@ function buildNavigation() {
     sections.forEach(section => {
         const navMenuItem = document.createElement('li');
         // Create a list item for each section using class, anchor tag, and the data-nav attribute.
-        navMenuItem.innerHTML = `<a class="menu__link" href="#${section.id}">${section.dataset.nav}</a>`;
+        navMenuItem.innerHTML = `<a class="menu__link">${section.dataset.nav}</a>`;
         // Add the li element to the ul.
         navMenuList.appendChild(navMenuItem);
 

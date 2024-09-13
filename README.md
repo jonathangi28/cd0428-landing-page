@@ -27,3 +27,11 @@
 This project was provided by Udacity and modified by the student, Jonathan Gillman.
 
 This work is licensed under Creative Commons Attribution-NonCommercial- NoDerivs 3.0 License located at http://creativecommons.org/licenses/by-nc-nd/4.0
+
+### Screenshot
+
+<img width="1908" alt="Landing Page Screenshot" src="https://github.com/user-attachments/assets/ae1b70e2-26d0-4740-ae0c-7e3ea6e010ba">
+
+### Video Demo
+
+https://github.com/user-attachments/assets/fc65507d-9987-4de4-bf04-c93f7af4b075
